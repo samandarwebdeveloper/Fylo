@@ -264,6 +264,12 @@ body {
     color: #fff;
     border-radius: 3px;
     z-index: 10;
+    transition: all 0.5s;
+}
+.section4__item:hover {
+    transform: scale(1.2);
+    background-color: darkcyan;
+    box-shadow: 1px 1px 5px rgb(134, 134, 134);
 }
 .section4__item:not(:last-child) {
     margin-right: 40px;
@@ -325,7 +331,11 @@ body {
     height: 48px;
     border-radius: 50px;
     border: none;
+    outline: none;
     padding-left: 30px;
+}
+.section5-form__input:focus {
+    border: 1px solid rgb(255, 0, 0);
 }
 .section5-form__button {
     width: 200px;
@@ -346,6 +356,7 @@ body {
     
     background-color: #0B1524;
     padding-top: 200px;
+    padding-bottom: 50px;
 }
 .footer {
     display: flex;
